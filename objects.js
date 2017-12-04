@@ -11,7 +11,7 @@ function updatePlaylist(playlist, artistName, songTitle){
 
 function removeFromPlaylist(playlist, artistName){
   delete playlist.artistName;
-  return playlist;
+  playlist;
 }
 /*
 Create a function removeFromPlaylist that accepts two arguments
