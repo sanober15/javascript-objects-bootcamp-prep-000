@@ -1,7 +1,7 @@
 //var objects = {artistName : 'songTitle'};
 //var objects = {};
-var artistName;
-var playlist = new Objects{([artistName]:'songTitle')};
+
+var playlist = new Object{([artistName]:'songTitle')};
 
 
 /*
