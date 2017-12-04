@@ -2,21 +2,8 @@
 //var objects = {};
 
 //var objects = {};
-var objects = Object.assign(playlist, artistName, songTitle){
-  playlist[artistName] = songTitle
-  return playlist;
-}
-
+const playlist = {artistName : 'songTitle'}
 /*
-
-
-function updatePlaylist(playlist, artistName, songTitle){
-  return playlist.artistName = songTitle;
-  //return objects.assign(playlist, {[artistName]:songTitle});
-}
-function removeFromPlaylist(playlist, artistName){
-  return delete playlist.artistName;
-}
 
 
 Assign an object to the variable playlist and initialize the object with
