@@ -2,7 +2,7 @@
 //var objects = {};
 
 //var objects = {};
-const objects = new Object({artistName : 'songTitle'})
+const objects = new Object()
 
 
 
