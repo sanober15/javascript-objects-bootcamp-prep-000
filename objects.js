@@ -2,7 +2,8 @@
 //var objects = {};
 
 //var objects = {};
-const playlist = {'artistName' : 'songTitle'}
+var objects = new Object({artistName : 'songTitle'})
+var playlist = Object.assign(objects, {artistName : 'songTitle'})
 /*
 
 
