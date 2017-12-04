@@ -1,6 +1,9 @@
 //var objects = {artistName : 'songTitle'};
 //var objects = {};
-var playlist = {};
+var artistName;
+var playlist = new Objects{([artistName]:'songTitle')};
+
+
 /*
 
 
