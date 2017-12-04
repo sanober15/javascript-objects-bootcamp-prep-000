@@ -2,13 +2,13 @@
 //var objects = {};
 
 //var objects = {};
-var playlist = Object.assign({}, {'artistNam':'songTitle'})
+var playlist = Object.assign({}, {'artistName':'songTitle'})
+
+function updatePlaylist(playlist, artistName, songTitle){
+  return Object.assign(playlist, {[artistName]:songTitle});
+  
+}
 /*
-
-
-Assign an object to the variable playlist and initialize the object with
-a key-value pair — the keys will be artist names and the values will be song titles.
-(What limitation does this impose on our playlist?)
 
 
 Create a function updatePlaylist that accepts three parameters: the playlist (an object),
