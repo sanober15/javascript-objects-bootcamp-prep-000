@@ -2,7 +2,7 @@
 //var objects = {};
 
 //var objects = {};
-const playlist = {[artistName] : 'songTitle'}
+const playlist = {artistName : 'songTitle'}
 /*
 
 
