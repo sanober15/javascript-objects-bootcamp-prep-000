@@ -12,6 +12,7 @@ function updatePlaylist(playlist, artistName, songTitle){
 function removeFromPlaylist(playlist, artistName){
   delete playlist.artistName;
   playlist;
+  return playlist;
 }
 /*
 Create a function removeFromPlaylist that accepts two arguments
