@@ -1,8 +1,11 @@
 //var objects = {artistName : 'songTitle'};
 //var objects = {};
 
-var playlist = new Object{([artistName]:'songTitle')};
-
+//var objects = {};
+var objects = Object.assign(playlist, artistName, songTitle){
+  playlist[artistName] = songTitle
+  return playlist;
+}
 
 /*
 
